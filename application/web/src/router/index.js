@@ -51,7 +51,7 @@ export const constantRoutes = [
       path: 'uplink',
       name: 'Uplink',
       component: () => import('@/views/uplink/index'),
-      meta: { title: '溯源信息录入', icon: 'el-icon-edit-outline' }
+      meta: { title: '溯源信息录入 Enter Tracking Information', icon: 'el-icon-edit-outline' }
     }]
   },
 
@@ -62,7 +62,7 @@ export const constantRoutes = [
       path: 'trace',
       name: 'Trace',
       component: () => import('@/views/trace/index'),
-      meta: { title: '溯源查询', icon: 'el-icon-search' }
+      meta: { title: '溯源查询 Traking Enquiry', icon: 'el-icon-search' }
     }]
   },
 
